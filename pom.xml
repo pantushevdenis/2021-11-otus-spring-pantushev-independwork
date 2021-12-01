@@ -10,13 +10,13 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
     <modules>
 
-        <module>loadFromPropewryes</module>
+        <module>loadFromPropertyes</module>
         <module>JavaAnno</module>
     </modules>
 
