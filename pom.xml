@@ -21,6 +21,9 @@
         <module>learnComponent</module>
         <module>learnBeanLifecycle</module>
         <module>learnAutowired</module>
+        <module>learnQualifier</module>
     </modules>
+
+
 
 </project>
