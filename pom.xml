@@ -22,6 +22,7 @@
         <module>learnBeanLifecycle</module>
         <module>learnAutowired</module>
         <module>learnQualifier</module>
+        <module>learnValue</module>
     </modules>
 
 
