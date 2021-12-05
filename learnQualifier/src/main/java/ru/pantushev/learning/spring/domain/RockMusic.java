@@ -1,4 +1,4 @@
-package ru.pantushev.learn.spring.domain;
+package ru.pantushev.learning.spring.domain;
 
 import org.springframework.stereotype.Component;
 

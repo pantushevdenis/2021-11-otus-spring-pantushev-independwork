@@ -1,15 +1,17 @@
-package ru.pantushev.learn.spring.domain;
+package ru.pantushev.learning.spring.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MusicPlayer1 {
+public class MusicPlayer3 {
+
+    Music music;
 
     @Autowired
-    @Qualifier("classicalMusic")
-    Music music;
+    public void setMusic(Music classicalMusic) { //не работает
+        this.music = music;
+    }
 
     public String playing()
     {
