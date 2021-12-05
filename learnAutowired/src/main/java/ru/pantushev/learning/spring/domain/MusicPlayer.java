@@ -6,8 +6,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class MusicPlayer {
 
-    @Autowired
+    //@Autowired
     Music music;
+
+    @Autowired
+    public MusicPlayer(ClassicalMusic music) {
+        this.music = music;
+    }
 
     public String playing()
     {
