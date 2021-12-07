@@ -3,14 +3,22 @@ package ru.pantushev.learning.spring.domain;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
-@Component
+@Controller
 public class MusicPlayer {
     @Value("${musicplayer.name}")
     private String name;
 
     @Value("${musicplayer.volume}")
     private int volume;
+
+    @Value("this is just string")
+    private String justString;
+
+    public String getJustString() {
+        return justString;
+    }
 
     public String getName() {
         return name;

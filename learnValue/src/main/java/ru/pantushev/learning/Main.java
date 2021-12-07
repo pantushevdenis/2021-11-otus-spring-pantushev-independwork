@@ -4,11 +4,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import ru.pantushev.learning.spring.domain.MusicPlayer;
 
 import javax.naming.Context;
 
 @Configuration
+@PropertySource("classpath:application.properties")
 @ComponentScan
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +22,8 @@ public class Main {
         System.out.println("mp1");
         System.out.println("name: " + mp1.getName());
         System.out.println("volume: " + mp1.getVolume());
+        System.out.println("justString: " + mp1.getJustString());
+
         System.out.println();
     }
 }
