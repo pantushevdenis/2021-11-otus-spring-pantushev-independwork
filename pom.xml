@@ -16,7 +16,6 @@
 
     <modules>
 
-        <module>loadFromPropertyes</module>
         <module>JavaAnno</module>
         <module>learnComponent</module>
         <module>learnBeanLifecycle</module>
@@ -25,6 +24,7 @@
         <module>learnValue</module>
         <module>loadFromProperty</module>
         <module>loadFromPropertyes</module>
+        <module>loadCofiguration1</module>
     </modules>
 
 

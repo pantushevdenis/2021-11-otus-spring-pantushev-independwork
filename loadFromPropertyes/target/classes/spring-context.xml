@@ -9,7 +9,7 @@
 >
 
     <context:property-placeholder location="classpath:application.properties" />
-    <bean name="musicPlayer" class="ru.pantushev.learn.spring.domain.MusicPlayer2">
+    <bean name="musicPlayer" class="ru.pantushev.learning.spring.domain.MusicPlayer2">
         <property name="name" value="${musicplayer.name}" />
         <property name="volume" value="${musicplayer.volume}" />
     </bean>

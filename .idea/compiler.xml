@@ -2,27 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="learnComponent" />
         <module name="learnAutowired" />
+        <module name="loadFromPropertyes" />
         <module name="JavaAnno" />
         <module name="loadFromProperty" />
-        <module name="loadFromPropewryes" />
+        <module name="loadCofiguration1" />
         <module name="learnQualifier" />
         <module name="learnBeanLifecycle" />
         <module name="learnValue" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="loadCofiguration1" target="15" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="loadFromProperty" options="-parameters" />
+      <module name="loadFromPropertyes" options="-parameters" />
     </option>
   </component>
 </project>
