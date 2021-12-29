@@ -1,7 +1,7 @@
 package ru.pantushev.learning.spring;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.pantushev.learn.spring.domain.MusicPlayer;
+import ru.pantushev.learning.spring.domain.MusicPlayer;
 
 public class Main {
     public static void main(String[] args) {

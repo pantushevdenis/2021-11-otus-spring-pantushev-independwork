@@ -4,9 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import ru.pantushev.learn.spring.domain.MusicPlayer1;
-import ru.pantushev.learn.spring.domain.MusicPlayer2;
-import ru.pantushev.learn.spring.domain.MusicPlayer3;
+import ru.pantushev.learning.spring.domain.MusicPlayer1;
+import ru.pantushev.learning.spring.domain.MusicPlayer2;
+import ru.pantushev.learning.spring.domain.MusicPlayer3;
 
 @ComponentScan
 @Configuration

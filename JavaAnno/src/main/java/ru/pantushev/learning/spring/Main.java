@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.pantushev.learning.spring.config.ApplicationConfig;
 import ru.pantushev.learning.spring.config.DaoConfig;
-import ru.pantushev.learn.spring.domain.Person;
+import ru.pantushev.learning.spring.domain.Person;
 import ru.pantushev.learning.spring.service.PersonService;
 
 public class Main {
