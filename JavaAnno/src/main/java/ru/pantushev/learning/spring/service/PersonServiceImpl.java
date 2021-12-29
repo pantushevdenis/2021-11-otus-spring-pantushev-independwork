@@ -1,7 +1,7 @@
 package ru.pantushev.learning.spring.service;
 
 import ru.pantushev.learning.spring.dao.PersonDao;
-import ru.pantushev.learning.spring.domain.Person;
+import ru.pantushev.learn.spring.domain.Person;
 
 public class PersonServiceImpl
     implements PersonService

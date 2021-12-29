@@ -1,6 +1,6 @@
 package ru.pantushev.learning.spring.dao;
 
-import ru.pantushev.learning.spring.domain.Person;
+import ru.pantushev.learn.spring.domain.Person;
 
 public class PersonDaoSimple
     implements PersonDao

@@ -5,9 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
-import ru.pantushev.learning.spring.domain.MusicPlayer;
-
-import javax.naming.Context;
+import ru.pantushev.learn.spring.domain.MusicPlayer;
 
 @Configuration
 @PropertySource("classpath:application.properties")

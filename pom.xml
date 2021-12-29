@@ -23,6 +23,8 @@
         <module>learnAutowired</module>
         <module>learnQualifier</module>
         <module>learnValue</module>
+        <module>loadFromProperty</module>
+        <module>loadFromPropertyes</module>
     </modules>
 
 

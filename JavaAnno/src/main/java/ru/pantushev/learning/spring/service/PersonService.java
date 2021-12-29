@@ -1,6 +1,6 @@
 package ru.pantushev.learning.spring.service;
 
-import ru.pantushev.learning.spring.domain.Person;
+import ru.pantushev.learn.spring.domain.Person;
 
 public interface PersonService {
     String getServiceName();
